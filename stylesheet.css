@@ -1,0 +1,166 @@
+html{
+    background-color:#ffff;
+    font-family: 'Oleo Script', cursive;
+}
+.logo{
+    height: 330px;
+    width: auto;
+    position: absolute;
+        left: -5px; top: -90px;
+    opacity: 100%;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 80px;
+    min-width: 100%;
+    max-width: 30%;
+    background-color:#ffb6c1;
+    opacity: 80%;
+}
+.nav{
+    color:#ffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: flex;
+}
+.links{
+    display: flex; 
+    justify-content: space-around;
+    width: 60%;
+}
+.links li{
+    list-style: none;
+    display: flex;
+}
+.links a{
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: flex;
+    text-decoration: solid;
+    color: aliceblue;
+}
+a:hover{
+    color: blue;
+}
+.tacos{
+    width: 1248px;
+    height: 500px;
+    opacity: 60%;
+    position: relative;
+}
+.text{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    background-color:#aec6cf;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 80%;
+}
+.title{
+    margin-top: auto;
+    margin-left: 500px;
+}
+.mid{
+    margin-top: auto;
+    margin-left: 120px;
+}
+.img{
+    max-width: 550px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 10px;
+
+}
+@media only screen and (min-width:400px){
+.nav{
+    width: 100%;
+    height: auto;
+}
+.tacos{
+    width: 100%;
+    height: auto;
+}
+.text{
+    margin-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    opacity: 0%;
+}
+.title{
+    margin-left: 10px;
+    margin-top: auto;
+
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+    
+}
+@media only screen and (min-width:850px) {
+    .nav{
+        width: 100%;
+        height: auto;
+
+    }
+    .tacos{
+        width: 100%;
+        height: auto;
+    }
+    .text{
+        margin-top: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        opacity: 80%;
+    }
+    .title{
+        margin-left: 10px;
+        margin-top: auto;
+    
+    }
+    .img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media print {
+    html{
+        background-color: #ffff;
+        color: black;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        letter-spacing: normal;
+        justify-content: center;
+        padding-right: 5px;
+
+    }
+    .tacos{
+        width: 100%;
+        height: auto;
+    }
+    .text{
+        margin-top: 2px;
+        padding-left: 5px;
+        padding-right: 1px;
+        opacity: 0%;
+    }
+    .title{
+        margin-left: 15px;
+        margin-top: auto;
+    
+    }
+    .img{
+        width: 100%;
+        height: auto;
+    }
+}
