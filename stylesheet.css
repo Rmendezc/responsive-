@@ -16,7 +16,7 @@ nav{
     height: 80px;
     min-width: 100%;
     max-width: 30%;
-    background-color:#ffb6c1;
+    background-color:#84a7ba;
     opacity: 80%;
 }
 .nav{
@@ -48,14 +48,15 @@ a:hover{
 .tacos{
     width: 1248px;
     height: 500px;
-    opacity: 60%;
+    opacity: 70%;
     position: relative;
 }
 .text{
-    position:absolute;
+    position: relative;
     bottom:10px;
+    width: 300px;
     left:10px;
-    background-color:#aec6cf;
+    background-color:#ee7379;
     color:black;
     padding-left: 10px;
     padding-right: 10px;
@@ -65,9 +66,10 @@ a:hover{
     margin-top: auto;
     margin-left: 500px;
 }
-.mid{
+.recipes{
     margin-top: auto;
     margin-left: 120px;
+    display: inline-block;
 }
 .img{
     max-width: 550px;
@@ -79,6 +81,10 @@ a:hover{
     padding: 10px;
 
 }
+footer{
+    background-color:#84a7ba;
+}
+
 @media only screen and (min-width:400px){
 .nav{
     width: 100%;
