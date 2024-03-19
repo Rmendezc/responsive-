@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <meta charset="UTF-8">
-        <title>Rudy's Recipes</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudy's Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="rudym-restautrant logo.png" alt="Rudy">
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#location">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><input type="text" placeholder="Search"></li>
+            </ul>
+           
+        </nav>
+    </header>
+    <section id="home">
+        <article>
+            <h1 id="promotional">Tacos De Alambre</h1>
+            <p>Traditional Mexican Beef Tacos</p>
+        </article>
+    </section>
+    <section id="r-title">
+        <h1>Popular Traditional Recipes</h1>
+        <p>Here's What's New on the Recipe Roster.</p>
+    </section>
 
-    <body>
-        <header>
-            <nav id="nav">
-                <img class="logo" src="Logo.svg" alt="Rudy">
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#recipes">Recipes</a></li>
-                    <li><a href="#media">Media</a></li>
-                    <li><a href="#location">locations</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <input value="Search"/>
-                    </li>
-                </ul> 
-            </nav>
-        </header>
-        <section>
-            <img  class="tacos" src="fod.jpg" alt="tacos">
-            <div class="text">
-                <h1>Tacos De Alambre</h1>
-                <p>Traditional Mexican Tacos</p>
-            </div>
-        </section>
-        <section id="recipes">
-            <h1>Popular Traditional Recipes</h2>
-            <p>Here's Whats New on the Recipe Roster.</p>
-            <h2>Enmoladas</h2>
-            <p>Ingredients:<br>
+    <section id="recipes" class="recipe-section">
+        <div class="recipe-card">
+            <img class="recipe-img" src="images/enmoladas.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+              <h2>Enmoladas</h2>
+              <p>Ingredients:<br>
                 2 ½ cups cooked chicken shredded and warmed. (about 300 grams)<br>
                 3 cups of warm mole sauce<br>
                 12 tortillas<br>
@@ -43,10 +50,9 @@
                 1 ½ cup Mexican fresh cheese crumbled.<br>
                 ½ medium size white onion thinly sliced.<br>
                 Lettuce and radishes for garnish or any salad that fits your taste.<br>
-            </p>
-            <h2>Directions</h2>
-            <p>
-                You will need two frying pans.<br> 
+              </p>
+              <h3>Directions</h3>
+              <p> You will need two frying pans.<br> 
                 Place the mole sauce in one of the frying pans and set over medium low heat. <br>
                 Have a plate covered with paper towels ready. (Please check the ingredients list above)<br>
                 Meanwhile, add the vegetable oil in the other frying pan and turn the heat to high. <br>
@@ -56,15 +62,14 @@
                 This is also a step that’s done quickly, to avoid breaking the tortillas.<br>
                 Place the tortilla on a plate and add the chicken filling right at the center.<br>
                 Fold the tortilla and, with the help of your spatula, place the enmolada on your serving plates. If needed, spoon some more mole sauce over the enmoladas.<br>
-                Just before serving, garnish with the crumbled cheese and finely sliced onions.<br>
-
-            </p>
-            <article>
-            <img class="img" src="enmoladas.jpg" alt="enmoladas">
-            </article>
-
-            <h2>Tostadas De Tinga</h2>
-            <p>Ingredients:<br>
+                Just before serving, garnish with the crumbled cheese and finely sliced onions.<br></p>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <img class="recipe-img" src="images/tinga.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+              <h2>Tostadas De Tinga</h2>
+              <p>Ingredients:<br>
                 6 bone-in chicken breast halves<br>
                 7 medium onions, thinly sliced<br>
                 1 clove garlic, chopped<br>
@@ -90,57 +95,161 @@
                 To serve, each person spreads some sour cream on their tostada shell, and tops with a spoonful of the chicken.<br>
 
             </p>
-            <img class="img" src="tinga.jpg" alt="tinga">
+            </div>
+          </div>
 
-            <h2>Elotes</h2>
-            <p>Ingredients:<br>
-                6 to 8 medium ears sweet corn, husks removed<br>
-                1/2 cup Mexican crema, or sour cream<br>
-                1/2 cup mayonnaise<br>
-                1/2 cup minced cilantro<br>
-                1 clove garlic, minced<br>
-                1/4 teaspoon ground chipotle pepper, to taste<br>
-                2 teaspoons lime zest, from one lime<br>
-                2 tablespoon lime juice, from one lime<br>
-                1/2 cup cotija cheese, crumbled<br>
-                Lime wedges, to serve<br>
-            </p>
-            <h2>Directions</h2>
-            <p>Heat a gas or charcoal grill to 400F:<br>
-                Clean the grates once it has heated.<br>
-                Whisk together the sauce:<br>
-                In a bowl, whisk together the crema, mayonnaise, cilantro, garlic, chipotle pepper, lime zest and lime juice.<br> 
-                Taste and season the mixture with salt if needed. (Crema has a little salt already, so add extra judiciously.) Set aside.<br>
-                Grill the corn:<br>
-                Place the husked corn directly onto grill grates. Grill the corn for about 3 minutes, undisturbed, or until kernels begin to turn golden brown and look charred. <br>
-                Turn over and repeat. When all sides are browned, remove from the grill onto a plate.<br>
-                Top the corn with sauce and cheese:<br>
-                Using a brush or a spoon, coat each ear of corn with the crema mixture.<br>
-                Sprinkle with crumbled cojita cheese. Sprinkle with additional chipotle pepper, if desired. Serve immediately with extra lime wedges.<br>
+          <div class="recipe-card">
+            <img class="recipe-img" src="images/elote.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+                <h2>Elotes</h2>
+                <p>Ingredients:<br>
+                    6 to 8 medium ears sweet corn, husks removed<br>
+                    1/2 cup Mexican crema, or sour cream<br>
+                    1/2 cup mayonnaise<br>
+                    1/2 cup minced cilantro<br>
+                    1 clove garlic, minced<br>
+                    1/4 teaspoon ground chipotle pepper, to taste<br>
+                    2 teaspoons lime zest, from one lime<br>
+                    2 tablespoon lime juice, from one lime<br>
+                    1/2 cup cotija cheese, crumbled<br>
+                    Lime wedges, to serve<br>
                 </p>
-                <img class="img" src="elote.jpg" alt="elote">
-        </section>
-        <section id="media">
-            <h2>Media</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Directions</h2>
+                <p>Heat a gas or charcoal grill to 400F:<br>
+                    Clean the grates once it has heated.<br>
+                    Whisk together the sauce:<br>
+                    In a bowl, whisk together the crema, mayonnaise, cilantro, garlic, chipotle pepper, lime zest and lime juice.<br> 
+                    Taste and season the mixture with salt if needed. (Crema has a little salt already, so add extra judiciously.) Set aside.<br>
+                    Grill the corn:<br>
+                    Place the husked corn directly onto grill grates. Grill the corn for about 3 minutes, undisturbed, or until kernels begin to turn golden brown and look charred. <br>
+                    Turn over and repeat. When all sides are browned, remove from the grill onto a plate.<br>
+                    Top the corn with sauce and cheese:<br>
+                    Using a brush or a spoon, coat each ear of corn with the crema mixture.<br>
+                    Sprinkle with crumbled cojita cheese. Sprinkle with additional chipotle pepper, if desired. Serve immediately with extra lime wedges.<br>
+                    </p>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <img class="recipe-img" src="images/flan.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+                <h2>Creamy Caramel Flan</h2>
+                <p>Ingredients:<br>
+                    3/4 cup sugar<br>
+                    1/4 cup water<br>
+                    1 package (8 ounces) cream cheese, softened<br>
+                    5 large eggs, room temperature<br>
+                    1 can (14 ounces) sweetened condensed milk<br>
+                    1 can (12 ounces) evaporated milk<br>
+                    1 teaspoon vanilla extract<br>
+                   
+                </p>
+                <h2>Directions</h2>
+                <p>In a heavy saucepan, cook sugar and water over medium-low heat until melted and golden, about 15 minutes. Brush down crystals on the side of the pan with additional water as necessary. Quickly pour into an ungreased 2-qt. round baking or souffle dish, tilting to coat the bottom; let stand for 10 minutes.<br>
+                    Preheat oven to 350°. In a bowl, beat the cream cheese until smooth. Beat in eggs, 1 at a time, until thoroughly combined. Add remaining ingredients; mix well. Pour over caramelized sugar.<br>
+                    Place the dish in a larger baking pan. Pour boiling water into larger pan to a depth of 1 in. Bake until the center is just set (mixture will jiggle), 50-60 minutes.<br>
+                    Remove dish from a larger pan to a wire rack; cool for 1 hour. Refrigerate overnight. <br>
+                    To unmold, run a knife around edge and invert onto a large rimmed serving platter. Cut into wedges or spoon onto dessert plates; spoon sauce over each serving. <br>
+                    </p>
+            </div>
+          </div>
 
-        </section>
-        <section id="location">
-            <h2>location</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="recipe-card">
+            <img class="recipe-img" src="images/tresleches.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+                <h2>Classic Tres Leches Cake</h2>
+                <p>Ingredients:<br>
+                    4 large eggs, separated, room temperature<br>
+                    2/3 cup sugar, divided<br>
+                    2/3 cup cake flour<br>
+                    Dash Salt<br>
+                    3/4 cup heavy whipping cream<br>
+                    3/4 cup evaporated milk<br>
+                    3/4 cup sweetened condensed milk<br>
+                    2 teaspoons vanilla extract <br>
+                    1/4 teaspoon rum extract <br>  
+                </p>
+                <p>Topping:<br> 
+                    1-1/4 cups heavy whipping cream <br>
+                    3 tablespoons sugar <br>
+                    Optional: Dulce de leche or sliced fresh strawberries <br>
+                </p>
+                <h2>Directions</h2>
+                <p>Place egg whites in a large bowl. Line bottom of a 9-in. springform pan with parchment; grease the paper. <br>
+                    Preheat oven to 350°. In another large bowl, beat egg yolks until slightly thickened. Gradually add 1/3 cup sugar, beating on high speed until thick and lemon-colored. Fold in flour, a third at a time. <br>
+                    Add salt to egg whites; with clean beaters, beat on medium until soft peaks form. Gradually add remaining 1/3 cup sugar, 1 tablespoon at a time, beating on high after each addition until sugar is dissolved. Continue beating until soft glossy peaks form. Fold a third of the whites into batter, then fold in remaining whites. Gently spread into prepared pan. <br>
+                    Bake until top springs back when lightly touched, 20-25 minutes. Cool 10 minutes before removing from pan to a wire rack to cool completely. <br>
+                    Place cake on a rimmed serving plate. Poke holes in top with a skewer. In a small bowl, mix cream, evaporated milk, sweetened condensed milk and extracts; brush or pour slowly over cake. Refrigerate, covered, 2 hours. <br>
+                    For topping, beat cream until it begins to thicken. Add sugar; beat until peaks form. Spread over top of cake. If desired, top cake with dulce de leche or strawberries just before serving. 
+                    </p>
+            </div>
+          </div>
 
-        </section>
-        <section id="contact">
-            <h2>contact</h2>>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="recipe-card">
+            <img class="recipe-img" src="images/fresas.jpg" alt="Enmoladas">
+            <div class="recipe-details">
+                <h2>Fresas con Crema</h2>
+                <p>Ingredients:<br>
+                    1 can (7.6 ounces) media crema table cream<br>
+                    3 tablespoons sweetened condensed milk<br>
+                    1 teaspoon vanilla extract<br>
+                    3 cups chopped fresh strawberries<br>               
+                </p>
+                <h2>Directions</h2>
+                <p>In a small bowl, whisk crema, sweetened condensed milk and vanilla. Divide strawberries among 4 serving dishes. Top with milk mixture. Garnish with more lechera if desired. <br>
+                </p>
+            </div>
+          </div>
 
-        </section>
-        <footer>
-            <img class="footerlogo" src="footerlogo.svg" alt="Rudy">
-            <br>
-            <p>Checkout our Newsletter for new and fun recipes.</p>
-            <p>For Educaional Purposes</p>
-    
-        </footer>    
-    </body>
+
+    </section>
+
+    <section>
+        <div id="media">
+            <div class="media-section">
+              <h2>Follow Us on Social Media</h2>
+              <div class="social-icons">
+                <a href="#" class="social-icon twitter"></a>
+                <a href="#" class="social-icon youtube"></a>
+                <a href="#" class="social-icon instagram"></a>
+                <a href="#" class="social-icon facebook"></a>
+                <a href="#" class="social-icon tiktok"></a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d761.3687729908542!2d-112.1011558319316!3d33.65419190377927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6f01978b4ecf%3A0xbbd5efecb70a7e9d!2sFry&#39;s!5e0!3m2!1sen!2sus!4v1710804074845!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <form id="contact-form" method="post">
+              <h2>Contact Us</h2>
+              <p>Feel free to message us with any questions, comments or any suggestions for new recipes.</p>
+              <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+    </section>
+
+    <footer>
+        <img src="rudym-restautrant logo.png" alt="Rudy">
+        <br>
+        <p>Checkout our Newsletter for new and fun recipes. <br> For Educational Purposes</p>
+        
+    </footer>
+</body>
 </html>
